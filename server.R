@@ -30,7 +30,7 @@ shinyServer(function(input, output, session) {
       updateSelectInput(session, "player_name",
                         choices = c("Enter a player..." = "", 
                                     available_players[available_players$team_name==x,]$name),
-                        selected = "Stephen Curry"
+                        selected = "Klay Thompson"
       )} else{
     # Can also set the label and select items
     updateSelectInput(session, "player_name",
